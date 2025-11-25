@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GFacebook",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.8/GFacebook_2.1.8_fixbundle.zip",
-            checksum: "b21543bd6fd5ad6d5550229cab51a7d58e30385768cf6607104b187e27db0016"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.8/GFacebook_2.1.8.zip",
+            checksum: "24dea0671363516ee41c564bc74fe5d44685b4de3f1bafb8f259c492197375ec"
         ),
         .target(
             name: "ZUSDKFacebookWrapper",
