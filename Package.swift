@@ -17,14 +17,14 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "ZUSDK_Facebook",
+            name: "GFacebook",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.8/GFacebook_2.1.8_fixbundle.zip",
             checksum: "b21543bd6fd5ad6d5550229cab51a7d58e30385768cf6607104b187e27db0016"
         ),
         .target(
             name: "ZUSDKFacebookWrapper",
             dependencies: [
-                "ZUSDK_Facebook",
+                "GFacebook",
                 .product(name: "FacebookShare", package: "facebook-ios-sdk")
             ],
             path: "Sources"
